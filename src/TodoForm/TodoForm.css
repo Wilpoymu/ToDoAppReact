@@ -1,0 +1,86 @@
+form {
+    display: flex;
+    background-color: #1E1F24;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    max-width: 500px;
+    border-radius: 30px;
+    padding: 2rem;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: 3rem 0;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+textarea {
+    background-color: #2b2e3d;
+    width: 70%;
+    height: 100px;
+    margin-bottom: 1rem;
+    border-radius: 30px;
+    border: none;
+    padding: 1rem;
+    size: 400px;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+}
+
+textarea::placeholder {
+    font-size: 1.2rem;
+    color: #7a7e93;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    width: 70%;
+}
+
+.addButton {
+    background-color: #2764FA;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin: 10px 0;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.cancelButton {
+    background-color: #2B2E3D;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin: 10px 0;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+}

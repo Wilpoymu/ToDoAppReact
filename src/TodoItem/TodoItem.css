@@ -1,0 +1,59 @@
+.TodoItem {
+  text-decoration: none;
+  position: relative;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  padding: 0.5em 0;
+}
+
+.TodoItem-p {
+  width: 80%;
+  margin-left: 3em;
+  height: auto;
+  padding: 0 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #2b2e3d;
+  color: #f4f4f4;
+  border-radius: 15px;
+}
+
+.TodoItem-p--completed {
+  background-color: #2764FA;
+  color: #FFF;
+}
+
+.TodoItem-p--completed p {
+  text-decoration: line-through;
+}
+
+.Icon {
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+}
+
+.Icon-check {
+  cursor: pointer;
+  position: absolute;
+  left: 12px;
+  color: #f4f4f4;
+
+}
+
+.Icon-check--active {
+  background-color: #64ffa6;
+  border-radius: 5px;
+    color: #7a7e93;
+}
+
+.Icon-delete {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

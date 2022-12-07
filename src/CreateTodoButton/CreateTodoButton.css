@@ -1,0 +1,24 @@
+.CreateTodoButton {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    left: 0;
+    bottom: 0;
+
+}
+
+.button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+}
+
+.button span {
+    color: #64FFA6;
+    font-weight: 600;
+    font-size: 70px;
+}
